@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    width: 100%;
+    height: 189px;
+    background: #000;
+}
+.header .header-box{
+    width: 1095px;
+    height: 100%;
+    margin: 0 auto;
+}
+.header .header-box .header-box-top{
+    width: 100%;
+    height: 106px;
+    overflow: hidden;
+}
+.header .header-box .header-box-top .logo{
+    width: 260px;
+    height: 80px;
+    margin-top: 13px;
+    margin-left: 40px;
+    float: left;
+}
+.header .header-box .header-box-top .logo .logo-box{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../images/zhayanlogo-new.png) no-repeat center center;
+}
+.header .header-box .header-box-top .serach-box{
+    width: 328.5px;
+    height: 76px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 15%;
+}
+.header .header-box .header-box-top .serach-box .bd{
+    width: 100%;
+    height: 25px;
+
+}
+.header .header-box .header-box-top .serach-box .bd ul li{
+    float: left;
+    width: 60px;
+    height: 25px;
+    font-size: 12px;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+}
+.header .header-box .header-box-top .serach-box .bd ul li:nth-child(1){
+    color: #000;
+    font-weight:600;
+    background: #fff;
+}
+.header .header-box .header-box-top .serach-box form{
+    width: 99%;
+    height: 30px;
+    border: 2px solid #fff;
+   
+}
+.header .header-box .header-box-top .serach-box form input{
+    float: left;
+    width: 80%;
+    height: 100%;
+    border: none;
+    font-size: 12px;
+    padding-left: 10px;
+    background: #000;
+    color: #968f7f;
+    outline: none;
+}
+.header .header-box .header-box-top .serach-box form button{
+    float: left;
+    width: 20%;
+    height: 100%;
+    border: none;
+    font-size: 12px;
+    background: #fff;
+    margin-left: -10px;
+    cursor: pointer;
+    outline: none;
+}
+.header .header-box .header-box-top .serach-box .s-nav{
+    width: 100%;
+    height: 16px;
+}
+.header .header-box .header-box-top .serach-box .s-nav li{
+   font-size: 12px;
+   float: left;
+   padding-right: 10px;
+}
+.header .header-box .header-box-top .serach-box .s-nav li a{
+    color: #fff;
+}
+.header .header-box .header-box-bottom{
+    width: 100%;
+    height: 83px;
+    /* overflow: hidden; */
+}
+
+.header .header-box .header-box-bottom .fenlei{
+    width: 160px;
+    height: 55px;
+    background: #fff;
+    font-size: 14px;
+    line-height: 55px;
+    text-align: center;
+    margin-top: 28px;
+    cursor: pointer;
+    font-weight: 600;
+    float: left;
+    position: relative;
+}
+.header .header-box .header-box-bottom .fenlei .sign{
+    width: 160px;
+    height: 75px;
+    background: #272727;
+    position: absolute;
+    z-index: 1;
+    font-size: 12px;
+    color: #fff;
+    display: none;
+}
+.header .header-box .header-box-bottom .fenlei .sign .ma{
+    padding-left: 10px;
+    color: #fff;
+}
+.header .header-box .header-box-bottom .fenlei .sign .wm{
+    color: #fbdfaf;
+}
+.header .header-box .header-box-bottom .fenlei .sign .woman{
+    width: 160px;
+    height: 490px;
+    background: #272727;
+    cursor: default;
+    display: block;
+}
+.header .header-box .header-box-bottom .fenlei .sign .woman dl a{
+    color: #AAA;
+}
+.header .header-box .header-box-bottom .fenlei .sign .woman dl dt{
+    line-height: 25px;
+    font-weight: 600;
+}
+.header .header-box .header-box-bottom .fenlei .sign .woman dl dd{
+        float: left;
+        line-height: 20px;
+        padding-right: 5px;
+}
+.header .header-box .header-box-bottom .fenlei .sign .woman dl:nth-child(1){
+    width: 145px;
+    height: 94px;
+    font-size: 12px;
+    font-weight: normal;
+    background: #3b3b3b;
+    text-align: left;
+    padding-left: 15px;
+    border-bottom: 1px dashed #aaa;
+}
+.header .header-box .header-box-bottom .fenlei .sign .woman dl:nth-child(2){
+    width: 145px;
+    height:74px;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: left;
+    padding-left: 15px;
+}
+.header .header-box .header-box-bottom .fenlei .sign .woman dl:nth-child(3){
+    width: 145px;
+    height: 77px;
+    font-size: 12px;
+    font-weight: normal;
+    background: #3b3b3b;
+    text-align: left;
+    padding-left: 15px;
+    border-bottom: 1px dashed #aaa;
+}
+.header .header-box .header-box-bottom .fenlei .sign .woman dl:nth-child(4){
+    width: 145px;
+    height: 75px;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: left;
+    padding-left: 15px;
+}
+.header .header-box .header-box-bottom .fenlei .sign .woman dl:nth-child(5){
+    width: 145px;
+    height: 58px;
+    font-size: 12px;
+    font-weight: normal;
+    background: #3b3b3b;
+    text-align: left;
+    padding-left: 15px;
+    border-bottom: 1px dashed #aaa;
+}
+.header .header-box .header-box-bottom .fenlei .sign .woman dl:nth-child(6){
+    width: 145px;
+    height: 58px;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: left;
+    padding-left: 15px;
+    border-bottom: 1px dashed #aaa;
+}
+.header .header-box .header-box-bottom .fenlei .sign .woman dl:nth-child(7){
+    width: 145px;
+    height: 53px;
+    font-size: 12px;
+    font-weight: normal;
+    background: #3b3b3b;
+    text-align: left;
+    padding-left: 15px;
+}
+.header .header-box .header-box-bottom .fenlei .sign .woman dl:hover{
+    background: #fff;
+}
+.header .header-box .header-box-bottom .fenlei .sign .woman dl:hover dt{
+    color: #aaa;
+}
+.header .header-box .header-box-bottom .fenlei .sign .woman dl a:hover{
+    color: orange;
+}
+.header .header-box .header-box-bottom .fenlei .sign .man{
+    width: 160px;
+    height: 405px;
+    background: #272727;
+    cursor: default;
+    display: none;
+}
+.header .header-box .header-box-bottom .fenlei .sign .man dl a{
+    color: #AAA;
+}
+.header .header-box .header-box-bottom .fenlei .sign .man dl dt{
+    line-height: 25px;
+    font-weight: 600;
+}
+.header .header-box .header-box-bottom .fenlei .sign .man dl dd{
+        float: left;
+        line-height: 20px;
+        padding-right: 5px;
+}
+.header .header-box .header-box-bottom .fenlei .sign .man dl:nth-child(1){
+    width: 145px;
+    height: 93px;
+    font-size: 12px;
+    font-weight: normal;
+    background: #3b3b3b;
+    text-align: left;
+    padding-left: 15px;
+    border-bottom: 1px dashed #aaa;
+}
+.header .header-box .header-box-bottom .fenlei .sign .man dl:nth-child(2){
+    width: 145px;
+    height: 112px;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: left;
+    padding-left: 15px;
+    
+}
+.header .header-box .header-box-bottom .fenlei .sign .man dl:nth-child(3){
+    width: 145px;
+    height: 130px;
+    font-size: 12px;
+    font-weight: normal;
+    background: #3b3b3b;
+    text-align: left;
+    padding-left: 15px;
+    border-bottom: 1px dashed #aaa;
+}
+.header .header-box .header-box-bottom .fenlei .sign .man dl:nth-child(4){
+    width: 145px;
+    height: 69px;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: left;
+    padding-left: 15px;
+}
+.header .header-box .header-box-bottom .fenlei .sign .man dl:hover{
+    background: #fff;
+}
+.header .header-box .header-box-bottom .fenlei .sign .man dl:hover dt{
+    color: #aaa;
+}
+.header .header-box .header-box-bottom .fenlei .sign .man dl a:hover{
+    color: orange;
+}
+
+
+.header .header-box .header-box-bottom .big-nav{
+    width: 508px;
+    height: 45px;
+    float: left;
+    margin-top: 28px;
+    line-height: 45px;
+}
+.header .header-box .header-box-bottom .big-nav li{
+    float: left;
+    font-weight: 600;
+    padding-right: 39px;
+    font-size: 13px;
+}
+.header .header-box .header-box-bottom .big-nav li:nth-child(1){
+    padding-left: 10px;
+}
+.header .header-box .header-box-bottom .big-nav li a{
+    color: #fff;
+}
+.header .header-box .header-box-bottom .userchoose{
+    width: 150px;
+    height: 30px;
+    margin-top: 28px;
+    float:right;
+}
+.header .header-box .header-box-bottom .userchoose li{
+    float: left;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+}
+.header .header-box .header-box-bottom .userchoose li a{
+    color: #fff;
+}
+.header .header-box .header-box-bottom .userchoose li span{
+    color: #fff;
+    padding: 0 5px;
+}
+.header .header-box .header-box-bottom .userchoose li b{
+    font-weight: normal;
+}
+
+.banner{
+    width: 100%;
+    height: 409px;
+    margin-top: 15px;
+}
+.banner .container {
+    width: 1095px;
+    height: 409px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.banner .banner-box{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 6570px;
+    
+}
+.banner .banner-box li{
+    width: 1095px;
+    height: 409px;
+    float: left;
+}
+.banner .banner-box li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.brand{
+    width: 100%;
+    height: 459px;
+    margin-top: 130px;
+}
+.brand .brand-box{
+    width: 1095px;
+    height: 100%;
+    margin: 0 auto;
+}
+ .brand-title{
+    width: 100%;
+    height: 71px;
+}
+ .brand-title h4{
+    font-weight: normal;
+    width: 315px;
+    height: 37px;
+    line-height: 37px;
+    border: 1px solid #000;
+    text-align: center;
+    margin:  0 auto;
+}
+.brand .brand-box .imgbox{
+    width: 100%;
+    height: 346px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+.brand .brand-box .imgbox div{
+    width: 270px;
+    height: 167px;
+}
+.brand .brand-box .imgbox div a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.morebox{
+    width: 100%;
+    height: 42px;
+}
+.moreimg{
+    display: block;
+    width: 70px;
+    height: 42px;
+    background: url(../images/more.png) no-repeat center center;
+    float:right;
+}
+.goods{
+    width: 100%;
+    height: 1300px;
+    background: #000;
+    margin-top: 84px;
+}
+.goods .goods-box{
+    width: 1095px;
+    height: 100%;
+    margin: 0 auto;
+    background: red;
+}
+.goods .goods-box .goods-info{
+    width: 100%;
+    height: 1170px;
+    background: blue;
+}
+.goods .goods-box .goods-info dl{
+    width: 219px;
+    height: 371px;
+    background: green;
+}
